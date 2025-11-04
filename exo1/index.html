@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP4 - Exercice 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .info {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TP4 JavaScript - Exercice 1</h1>
+
+    <div class="info">
+        <p><strong>Instructions:</strong> Ouvrez la console du navigateur (F12) pour voir les résultats.</p>
+    </div>
+
+    <div class="button-container">
+        <button onclick="f1()">F1 - Afficher les nombres de 1 à 10</button>
+        <button onclick="f2()">F2 - Afficher les nombres pairs de 0 à 20</button>
+        <button onclick="f3()">F3 - Afficher les nombres impairs de 1 à 19</button>
+        <button onclick="f4()">F4 - Calculer la somme de 1 à 100</button>
+        <button onclick="f5()">F5 - Afficher la table de multiplication de 7</button>
+        <button onclick="f6()">F6 - Afficher les nombres de 10 à 1 (décroissant)</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
